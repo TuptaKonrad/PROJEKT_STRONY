@@ -1,0 +1,430 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+
+    --clr-primary-1: #10c9c3;
+    --clr-primary-2: #838383;
+    --clr-primary-3: #252525;
+    --clr-primary-4: #dddddd;
+    --clr-text:#1d1d1d;
+    --clr-p:#787878;
+    
+}
+
+nav{
+    display: flex;
+    margin: 0 10rem;
+    padding: 3rem;
+}
+body > section > header > nav > ul{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    justify-content: flex-end;
+}
+body > section.main > header > nav > div > a > img{
+    width: 50px;
+}
+body> section > header > nav > ul > li > a{
+    margin-left:20px ;
+    margin-right: 20px;
+    color: var(--clr-text)
+}
+.active{
+    color: var(--clr-primary-1)
+}
+.main{
+    height: 12vh;
+       
+   
+}
+.text2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4vh;
+    margin-top: 2rem;
+    padding-right: 15%;
+    letter-spacing: 1px;
+    color: var(--clr-text);
+}
+.text3{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--clr-p);
+    margin-top: 20px;
+    width: 450px;
+}
+.text{
+    display: none;
+    float: right;
+    margin: 0 10rem;
+    width: 645px;
+    margin-top: 100px;
+}
+.emoticons{
+    height: 30vh;
+    background-color: var(--clr-primary-1);
+}
+
+body > section.emoticons > div{
+    padding: 50px;
+    height: 100%;
+    display: flex;
+}
+body > section.emoticons > div > div{
+    width: 25%;
+}
+body > section.skills > div.skillsLeft > div > h2{
+    letter-spacing: 1px;
+}
+body > section.emoticons > div > div.first{
+    display: flex;
+}
+body > section.emoticons > div > div.first > div.under{
+  
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+
+}
+body > section.emoticons > div > div.first > div.under > p{
+    font-size: 12px;
+    font-weight: 600;
+}
+body > section.emoticons > div > div.second > div.under > p{
+    font-size: 12px;
+    font-weight: 600;
+}
+body > section.emoticons > div > div.third > div.under > p{
+    font-size: 12px;
+    font-weight: 600;
+}
+body > section.emoticons > div > div.fourth > div.under > p{
+    font-size: 12px;
+    font-weight: 600;
+}
+body > section.emoticons > div > div.first > div.ahead > i{
+    font-size: 50px;
+    color: white;
+}
+body > section.emoticons > div > div.first > div.under{
+    margin-left: 20px;
+}
+
+body > section.emoticons > div > div.first{
+    align-items: center;
+    justify-content: center
+}
+body > section.emoticons > div > div.first > div.under > p{
+    font-weight: 600;
+    font-size: 10;
+}
+
+
+
+
+body > section.emoticons > div > div.second{
+    display: flex;
+}
+body > section.emoticons > div > div.second > div.under{
+    font-size: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+
+}
+body > section.emoticons > div > div.second > div.ahead > i{
+    font-size: 50px;
+    color: white;
+}
+body > section.emoticons > div > div.second > div.under{
+    margin-left: 20px;
+}
+
+body > section.emoticons > div > div.second{
+    align-items: center;
+    justify-content: center
+}
+body > section.emoticons > div > div.second > div.under > p{
+    font-weight: 600;
+    font-size: 10;
+}
+body > section.emoticons > div > div.second{
+    display: flex;
+}
+body > section.emoticons > div > div.third{
+    display: flex;
+}
+body > section.emoticons > div > div.third > div.under{
+    font-size: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+
+}
+body > section.emoticons > div > div.third > div.ahead > i{
+    font-size: 50px;
+    color: white;
+}
+body > section.emoticons > div > div.third > div.under{
+    margin-left: 20px;
+}
+
+body > section.emoticons > div > div.third{
+    align-items: center;
+    justify-content: center
+}
+body > section.emoticons > div > div.third > div.under > p{
+    font-weight: 600;
+    font-size: 10;
+}
+body > section.emoticons > div > div.third{
+    display: flex;
+}
+body > section.emoticons > div > div.fourth{
+    display: flex;
+}
+body > section.emoticons > div > div.fourth > div.under{
+    font-size: 1rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+
+}
+body > section.emoticons > div > div.fourth > div.ahead > i{
+    font-size: 50px;
+    color: white;
+}
+body > section.emoticons > div > div.fourth > div.under{
+    margin-left: 20px;
+}
+
+body > section.emoticons > div > div.fourth{
+    align-items: center;
+    justify-content: center
+}
+body > section.emoticons > div > div.fourth > div.under > p{
+    font-weight: 600;
+    font-size: 10;
+}
+body > section.emoticons > div > div.fourth{
+    display: flex;
+}
+  .form{
+      height: 80vh;
+  }
+  body > section.form{
+    display: flex;
+    justify-content: center;
+  }
+  body > section.form > div > h1{
+      text-align: center;
+  }
+  body > section.form > div > p{
+      text-align: center;
+  }
+  body > section.form > div > div > form > input{
+    width: 300px;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  body > section.form > div > div > form > input[type=text]:nth-child(6){
+      width: 100%;
+      height: 200px;
+  }
+  body > section.form > div > div > div{
+    justify-content: center;
+    display: flex;
+  }
+  body > section.form > div > div > form > input[type=text]:nth-child(1){
+      margin-right: 10px;
+  }
+  body > section.form > div > div > form > input[type=text]:nth-child(2){
+      margin-left: 10px;
+  }
+  body > section.form > div{
+      margin-top: 100px;
+  }
+  body > section.form > div > div > div > button{
+  margin-top: 40px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border-color: var(--clr-primary-1);
+    background-color: var(--clr-primary-1);
+    box-shadow: none;
+    border: none;
+}
+body > section.form > div > div > div > button > p{
+color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+body > section.form > div > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+body > section.form > div > p{
+    font-family: 'Montserrat', sans-serif;
+}
+body > section.form{
+    background-color:#dddddd ;
+}
+input::-webkit-input-placeholder {
+    float: left;
+}
+footer{
+    height: 30vh;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color: var(--clr-p);
+    font-family: 'Montserrat', sans-serif;
+}
+body > footer > div{
+    width: 100%;
+    display: flex;
+}
+body > footer > div > div{
+    width: 25%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+body > footer > div > div:nth-child(3) > ul{
+    list-style: none;
+    color: var(--clr-p);
+}
+body > footer > div > div:nth-child(3) > ul > a > li{
+    color: var(--clr-p);
+}
+body > footer > div > div:nth-child(4) > ul{
+    list-style: none;
+    color: var(--clr-p);
+}
+body > footer > div > div:nth-child(4) > ul > a > li{
+    color: var(--clr-p);
+}
+
+.center{
+    height: 80vh;
+    background-color: #dddddd;
+}
+.inside{
+    width: 100%;
+    height: 80vh;
+    padding: 100px;
+    display: flex;
+
+}
+.describe{
+    width: 50%;
+    height: 100%;
+}
+.show{
+    width: 50%;
+    height: 100%;
+}
+.underline{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+body > div > div > i{
+    font-size: 30px;
+}
+body > section.center > div > div.describe > div{
+    display: flex;
+}
+body > section.center > div > div.show{
+    display: flex;
+}
+#desc{
+    width: 500px;
+   padding-bottom: 30px;
+   padding-top: 30px;
+}
+body > section.center > div > div.describe > div:nth-child(3){
+    padding-bottom: 10px;
+}
+#share{
+    padding-top: 10px;
+}
+.exp{
+    display: flex;
+}
+body > section.signature > div > div.close{
+    width: 50%;
+}
+body > section.signature > div > div.signatureText > h1{
+    justify-content: center;
+    text-align: center;
+}
+
+body > section.signature > div > div.signatureText > div{
+justify-content: center;
+align-items: center;
+text-align: center;}
+body > section.signature > div{
+    height: 100%;
+}
+body > section.signature > div > div.signatureText{
+    padding:70px
+}
+body > section.signature > div > div.close{
+    background-image: url('images/background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.need{
+    height: 40vh;
+    align-items: center;
+    text-align: center;
+}
+
+body > section.need > div > a > button{
+margin-top: 40px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    border-color: var(--clr-primary-1);
+    background-color: var(--clr-primary-1);
+    box-shadow: none;
+    letter-spacing: 1px;
+    border: none;}
+    body > section.need > h1{
+        margin-top: 100px;
+    }
+    .me{
+        height: 50vh;
+        align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   background-image: url('images/me.jpg');
+   background-repeat:no-repeat;
+   background-position-y:30vh ;
+   background-size:cover;
+  
+ background-position:center 70%;
+    }
+    body > section.me > div{
+        color: white;
+    }

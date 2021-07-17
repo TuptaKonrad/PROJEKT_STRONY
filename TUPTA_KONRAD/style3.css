@@ -1,0 +1,349 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --clr-primary-1: #10c9c3;
+    --clr-primary-2: #838383;
+    --clr-primary-3: #252525;
+    --clr-primary-4: #dddddd;
+    --clr-text:#1d1d1d;
+    --clr-p:#787878;
+    
+}
+
+nav{
+  display: flex;
+  margin: 0 10rem;
+  padding: 3rem;
+}
+body > section > header > nav > ul{
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  justify-content: flex-end;
+}
+body > section.main > header > nav > div > a > img{
+  width: 50px;
+}
+body> section > header > nav > ul > li > a{
+  margin-left:20px ;
+  margin-right: 20px;
+  color: var(--clr-text)
+}
+.active{
+  color: var(--clr-primary-1)
+}
+.main{
+  height: 12vh;
+   
+}
+.text2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vh;
+  margin-top: 2rem;
+  padding-right: 15%;
+  letter-spacing: 1px;
+  color: var(--clr-text);
+}
+.text3{
+  font-family: 'Montserrat', sans-serif;
+  color: var(--clr-p);
+  margin-top: 20px;
+  width: 450px;
+}
+.text{
+  float: right;
+  margin: 0 10rem;
+  width: 645px;
+  margin-top: 100px;
+}
+
+.products{
+    height: 60vh;
+}
+body > section.products > div.rulerOne > ul{
+    display: flex;
+}
+.rullerOne{
+    height: 30vh;
+}
+.rullerTwo{
+    height: 30vh;
+}
+body > section.products > div.rullerOne > ul{
+    display: flex;
+    list-style: none;
+}
+body > section.products > div.rullerOne > ul > li{
+    width: 25%;
+    height: 30vh;
+}
+body > section.products > div.rullerTwo > ul{
+    display: flex;
+    list-style: none;
+}
+body > section.products > div.rullerTwo > ul > li{
+    width: 25%;
+    height: 30vh;
+}
+
+body > section.products > div.rullerOne > ul > a{
+    width: 25%;
+    height: 30vh;
+}
+body > section.products > div.rullerTwo > ul > a{
+    width: 25%;
+    height: 30vh;
+}
+body > section.products > div.rullerOne > ul > a:nth-child(1) > li{
+    background-image:url('images/battery.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index: 1;
+    background-size: 50%;
+  background-position:center 70%;
+}
+body > section.products > div.rullerOne > ul > a:nth-child(2) > li{
+    background-image:url('images/milk.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index: 1;
+    background-size: 50%;
+  background-position:center 70%;
+}
+body > section.products > div.rullerOne > ul > a:nth-child(3) > li{
+    background-image:url('images/jafra.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index: 1;
+    background-size: 50%;
+  background-position:center 70%;
+}
+body > section.products > div.rullerOne > ul > a:nth-child(4) > li{
+    background-image:url('images/rituals.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index: 1;
+    background-size: 50%;
+  background-position:center 70%;
+}
+body > section.products > div.rullerOne > ul > a > li{
+    width: 100%;
+    height: 100%;
+}
+body > section.products > div.rullerOne > ul > a > li:hover{
+filter: brightness(50%);
+background-color:#808080a8;
+}
+
+body > section.products > div.rullerTwo > ul > a > li:hover{
+    filter: brightness(50%);
+    background-color:#808080a8;
+}
+body > section.products > div.rullerTwo > ul > a > li{
+    width: 100%;
+    height: 100%;
+}
+body > section.products > div.rullerTwo > ul > a > li > div{
+width: 100%;
+height: 100%;
+}
+
+
+body > section.products > div.rullerOne > ul > a > li > div{
+    width: 100%;
+    height: 100%;
+}
+body > section.products > div.rullerOne > ul > a > li > div:hover{
+    background-image:url('images/eye.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+}
+body > section.products > div.rullerTwo > ul > a > li > div:hover{
+    background-image:url('images/eye.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: center;
+}
+body > section.products > div.rullerTwo > ul > a:nth-child(1) > li{
+    background-image:url('images/pils.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index: 1;
+    background-size: 50%;
+  background-position:center 70%;
+}
+body > section.products > div.rullerTwo > ul > a:nth-child(2) > li{
+    background-image:url('images/fast.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index: 1;
+    background-size: 50%;
+  background-position:center 70%;
+}
+body > section.products > div.rullerTwo > ul > a:nth-child(3) > li{
+    background-image:url('images/timer.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index: 1;
+    background-size: 50%;
+  background-position:center 70%;
+}
+body > section.products > div.rullerTwo > ul > a:nth-child(4) > li{
+    background-image:url('images/skinn.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    z-index: 1;
+    background-size: 50%;
+  background-position:center 70%;
+}
+.form{
+  height: 80vh;
+}
+body > section.form{
+display: flex;
+justify-content: center;
+}
+body > section.form > div > h1{
+  text-align: center;
+}
+body > section.form > div > p{
+  text-align: center;
+}
+body > section.form > div > div > form > input{
+width: 300px;
+padding: 10px;
+border: none;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+body > section.form > div > div > form > input[type=text]:nth-child(6){
+  width: 100%;
+  height: 200px;
+}
+body > section.form > div > div > div{
+justify-content: center;
+display: flex;
+}
+body > section.form > div > div > form > input[type=text]:nth-child(1){
+  margin-right: 10px;
+}
+body > section.form > div > div > form > input[type=text]:nth-child(2){
+  margin-left: 10px;
+}
+body > section.form > div{
+  margin-top: 100px;
+}
+body > section.form > div > div > div > button{
+margin-top: 40px;
+padding: 15px;
+padding-left: 30px;
+padding-right: 30px;
+color: white;
+border-color: var(--clr-primary-1);
+background-color: var(--clr-primary-1);
+box-shadow: none;
+border: none;
+}
+body > section.form > div > div > div > button > p{
+color: white;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 1px;
+}
+body > section.form > div > h1{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+}
+
+body > section.form > div > p{
+font-family: 'Montserrat', sans-serif;
+}
+body > section.form{
+background-color:#dddddd ;
+}
+input::-webkit-input-placeholder {
+float: left;
+}
+footer{
+height: 30vh;
+display: flex;
+width: 100%;
+background-color: black;
+color: var(--clr-p);
+font-family: 'Montserrat', sans-serif;
+}
+body > footer > div{
+width: 100%;
+display: flex;
+}
+body > footer > div > div{
+width: 25%;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+body > footer > div > div:nth-child(3) > ul{
+list-style: none;
+color: var(--clr-p);
+}
+body > footer > div > div:nth-child(3) > ul > a > li{
+color: var(--clr-p);
+}
+body > footer > div > div:nth-child(4) > ul{
+list-style: none;
+color: var(--clr-p);
+}
+body > footer > div > div:nth-child(4) > ul > a > li{
+color: var(--clr-p);
+}
+
+.center{
+height: 80vh;
+background-color: #dddddd;
+}
+.inside{
+width: 100%;
+height: 80vh;
+padding: 100px;
+display: flex;
+
+}
+.describe{
+width: 50%;
+height: 100%;
+}
+.show{
+width: 50%;
+height: 100%;
+}
+body > section.main > div{
+display: none;
+}
+body > section.ux{
+height: 30vh;
+display: flex;
+}
+body > section.ux > div{
+justify-content: center;
+text-align: center;
+align-items: center;
+width: 100%;
+}
+body > section.ux{
+align-items: center;
+background-color:#f6f6f6 ;
+}
+body > section.products{
+margin-top: 100px;
+margin-bottom: 100px;
+}
